@@ -18,6 +18,7 @@ Categorias:
 - Video aula
 - Video animação
 
+<pre>
  Direta {
   texto técnico
   texto direto
@@ -36,6 +37,7 @@ Categorias:
   audio podcast
   video animação
 }
+</pre>
 
 Pergunta 
 - Tecnica 5 perguntas
