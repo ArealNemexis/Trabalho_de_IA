@@ -42,3 +42,4 @@ Pergunta
 - Contexto e Historia 5 perguntas
 - Tirinha 5 perguntas
 
+
