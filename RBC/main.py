@@ -1,14 +1,14 @@
 from classificacoes import classificacoes
 
 notas = [
-  ('texto_tecnico', 0.1),
-  ('texto_direto', 0.4),
-  ('texto_contextualizado', 1),
-  ('texto_com_imagens', 0.8),
-  ('audio_podcast', 0.5),
-  ('audio_livro', 0.6),
-  ('video_aula', 0.4),
-  ('video_animacao', 1)
+  ('texto_tecnico', 0),
+  ('texto_direto', .5),
+  ('texto_contextualizado', .5),
+  ('texto_com_imagens', 1),
+  ('audio_podcast', 1),
+  ('audio_livro', .5),
+  ('video_aula', 1),
+  ('video_animacao', .5)
 ]
 
 tend = {
@@ -22,9 +22,9 @@ for nota in notas:
   priorities = classificacoes[categoria]['priority']
   maior, media, menor = priorities
 
-  if percent < 33.33:
+  if percent < .33:
     tend[menor] += 1
-  elif percent < 66.66:
+  elif percent < .66:
     tend[media] += 1
   else:
     tend[maior] += 1
